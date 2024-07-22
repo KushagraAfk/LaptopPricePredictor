@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import sklearn
 
-st.title("Laptop Predictor")
+st.title("Laptop Price Predictor")
 pipe = pickle.load(open('pipe2.pkl', 'rb'))
 df = pickle.load(open('df.pkl', 'rb'))
 df = pd.DataFrame(df)
